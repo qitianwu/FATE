@@ -1,8 +1,10 @@
 ## This repository holds the implementation for paper [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514)
 
-Download our preprocessed UCI dataset to the ***data*** folder (created in the root path) via the following link
+Download our preprocessed UCI datasets to the ***data*** folder (created in the root path) via the following link
 
     https://drive.google.com/drive/folders/1MlP5MiGeGNjb9GpWbI3HlUrpCFw2XqVA?usp=sharing
+
+For Criteo and Avazu datasets, please download them from the Kaggle website.
 
 To run the code, please refer to the bash script in each folder.
 
