@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fbf7082-23f2-4018-ae7a-ac7313c782c1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="48e9cca1-edf1-47b3-ab96-4c17e6ba324d" />
+  </component>
+  <component name="JupyterTrust" id="c94025d1-b592-4220-90fe-77c4c780f2c3" />
+  <component name="ProjectId" id="21OwtatncxQEqvksMpL1JnuzKZV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fbf7082-23f2-4018-ae7a-ac7313c782c1" name="Default Changelist" comment="" />
+      <created>1637825656298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637825656298</updated>
+      <workItem from="1637825657392" duration="86000" />
+      <workItem from="1637825773555" duration="619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="205" key="#Deployment" timestamp="1637826013848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1637826013848" />
+    <state x="616" y="219" key="#Options" timestamp="1637825999853">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="219" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1637825999853" />
+    <state x="831" y="444" key="Github.ShareDialog" timestamp="1637826135772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="831" y="444" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1637826135772" />
+    <state x="469" y="179" key="SettingsEditor" timestamp="1637825981662">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1637825981662" />
+    <state x="748" y="233" key="svn.repositoryBrowser" timestamp="1637826245834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="233" key="svn.repositoryBrowser/0.0.1920.1080@0.0.1920.1080" timestamp="1637826245834" />
+  </component>
+</project>
