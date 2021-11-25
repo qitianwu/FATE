@@ -1,6 +1,6 @@
 ## This repository holds the implementation for paper [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514)
 
-Download our preprocessed UCI dataset to the ***data*** folder via the following link
+Download our preprocessed UCI dataset to the ***data*** folder (created in the root path) via the following link
 
     https://drive.google.com/drive/folders/1rTfOKZJ-zYrNY9hDUtU9H-UG9fPPQOds?usp=sharing
 
