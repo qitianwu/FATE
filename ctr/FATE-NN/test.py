@@ -22,9 +22,9 @@ def fix_seed(seed):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic = True
 
-parser = argparse.ArgumentParser(description='SARec')
+parser = argparse.ArgumentParser(description='FATE-NN')
 parser.add_argument('--gpus', default='0', help='gpus')
-parser.add_argument('--data_dir', default='/home/wuqitian/FTrans/data/large', help='data_dir')
+parser.add_argument('--data_dir', default='../../data/large', help='data_dir')
 parser.add_argument('--dataset', type=str, default='criteo', help='dataset')
 # splice, mushroom, nursery, drive, wine
 parser.add_argument('--lr1', type=float, default=1e-4, help='learning_rate for pretrain') # 0.0001
