@@ -1,5 +1,6 @@
-## Codes and datasets for [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514)
+## FeATure Extrapolation Networks (FATE)
 
+Codes and datasets for [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514)
 This paper proposes a graph-based approach for handling new unseen features in test set. To verify the approach, we consider experiments on six small datasets from UCI repository and two large CTR prediction datasets.
 
 ### Dependency
