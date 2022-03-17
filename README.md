@@ -1,6 +1,6 @@
 ## FeATure Extrapolation Networks (FATE)
 
-Codes and datasets for [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514)
+Codes and datasets for [Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach](https://arxiv.org/abs/2110.04514).
 This paper proposes a graph-based approach for handling new unseen features in test set. To verify the approach, we consider experiments on six small datasets from UCI repository and two large CTR prediction datasets.
 
 ### Dependency
@@ -33,6 +33,10 @@ For the CTR prediction datasets, please download them on Kaggle website.
 - Criteo http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/
 
 - Avazu https://www.kaggle.com/c/avazu-ctr-prediction
+
+### Model Implementation
+
+The model contains a GNN module (for extrapolation) and a feedforward backbone. For UCI, we consider a shallow neural network as the backbone. For CTR, we consider both neural network and DeepFM model as the backbone.
 
 ### Run
 
