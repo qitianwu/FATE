@@ -46,9 +46,11 @@ More information will be updated.
 
 If you use the code or preprocessed datasets, please cite our paper:
 
+```bibtex
     @inproceedings{wu2021fate,
     title = {Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach},
     author = {Qitian Wu and Chenxiao Yang and Junchi Yan},
     booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
     year = {2021}
     }
+```
