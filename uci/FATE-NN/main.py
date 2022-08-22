@@ -136,10 +136,7 @@ for _ in range(5):
         print('Test AUC: {:.4f}'.format(best_metric_te))
     results.append(best_metric_te)
 print(np.mean(results), np.std(results))
-# logging.basicConfig(level=logging.INFO, filename='../abl/con.log', format='%(message)s')
-# results = np.array(results)
-# logging.info("con_reg {} {}: {:.4f} + {:.4f}, {}".format(args.con_reg, args.dataset, np.mean(results), np.std(results), results))
 
-# logging.basicConfig(level=logging.INFO, filename='../log5/{}.log'.format(args.dataset), format='%(message)s')
+# logging.basicConfig(level=logging.INFO, filename='../log/{}.log'.format(args.dataset), format='%(message)s')
 # results = np.array(results)
-# logging.info("ours {}: {:.4f} + {:.4f}, {}".format(args.feature_ratio, np.mean(results), np.std(results), results))
+# logging.info("{} {} {} {}: {:.4f} + {:.4f}, {}".format(args.model, args.train_ratio, args.feature_ratio, args.new_feature_ratio, np.mean(results), np.std(results), results))

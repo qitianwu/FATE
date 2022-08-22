@@ -104,7 +104,7 @@ for _ in range(5):
         if loss_val < min_loss:
             min_loss = loss_val
             best_metric_te = metric_te
-            torch.save(model.state_dict(), '../ours_vis/checkpoint/dnn-{}-{}-{}.pkl'.format(args.dataset, args.train_ratio, args.feature_ratio))
+            # torch.save(model.state_dict(), '../checkpoint/dnn-{}-{}-{}.pkl'.format(args.dataset, args.train_ratio, args.feature_ratio))
     if args.multi_class:
         print('Test Acc: {:.4f}'.format(best_metric_te))
     else:
@@ -112,6 +112,6 @@ for _ in range(5):
     results.append(best_metric_te)
 print(np.mean(results), np.std(results))
 
-logging.basicConfig(level=logging.INFO, filename='../log6/{}.log'.format(args.dataset), format='%(message)s')
-results = np.array(results)
-logging.info("{} {} {} {}: {:.4f} + {:.4f}, {}".format(args.model, args.train_ratio, args.feature_ratio, args.new_feature_ratio, np.mean(results), np.std(results), results))
+# logging.basicConfig(level=logging.INFO, filename='../log/{}.log'.format(args.dataset), format='%(message)s')
+# results = np.array(results)
+# logging.info("{} {} {} {}: {:.4f} + {:.4f}, {}".format(args.model, args.train_ratio, args.feature_ratio, args.new_feature_ratio, np.mean(results), np.std(results), results))

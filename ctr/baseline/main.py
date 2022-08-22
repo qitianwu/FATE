@@ -102,6 +102,3 @@ for _ in range(5):
             torch.save(model.state_dict(), './model/deepfm-avazu-day.pkl')
     print('Test AUC: {:.4f} Test Logloss: {:.4f}'.format(best_auc_te, best_logloss))
     results.append([best_auc_te, best_logloss])
-# logging.basicConfig(level=logging.INFO, filename='../log4/{}.log'.format(args.dataset), format='%(message)s')
-# results = np.array(results)
-# logging.info("{} {}: {:.4f} + {:.4f}, {}".format(args.model, args.feature_ratio, np.mean(results), np.std(results), results))
