@@ -20,15 +20,17 @@ The following table shows testing ROC-AUC results on two large-scale advertiseme
 
 ### Datasets
 
-The original UCI datasets are collected from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php)
-
-We provide the preprocessed UCI datasets in the following link (download to the ***data*** folder)
+One can directly use our preprocessed UCI and CTR datasets for experiments, which we provide in the following link (download to the ***data*** folder)
 
     https://drive.google.com/drive/folders/1MlP5MiGeGNjb9GpWbI3HlUrpCFw2XqVA?usp=sharing
+    
+For each dataset of UCI, the instances are randomly splitted into 60/20/20% for train/valid/test and the 0-1 features are randomly divided into observed and unobserved ones. The ratios for observed features range from 30% to 80%. For example, the file "split_0.6_0.3.pkl" contains data splits with 60% training instances and 30% observed features. For more information above preprocessing, please refer to our paper.
 
-For each dataset, the instances are randomly splitted into 60/20/20% for train/valid/test and the 0-1 features are randomly divided into observed and unobserved ones. The ratios for observed features range from 30% to 80%. For example, the file "split_0.6_0.3.pkl" contains data splits with 60% training instances and 30% observed features. For more information above preprocessing, please refer to our paper.
+For two CTR datasets, the instances are splitted according to time order. In specific, we split all the instances into 10 sets and use 1/1/8 sets for training/validation/testing. Such a splitting naturally introduce new unseen features in the validation and testing sets.
 
-For the CTR prediction datasets, please download them on Kaggle website.
+The original UCI datasets are collected from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php)
+
+For the CTR prediction datasets, the original data are downloaded from Kaggle website. Speficially,
 
 - Criteo http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/
 
@@ -41,8 +43,6 @@ The model contains a GNN module (for extrapolation) and a feedforward backbone. 
 ### Run
 
 To run the code, please refer to the bash script in each folder.
-
-More information will be updated.
 
 If you use the code or preprocessed datasets, please cite our paper:
 
